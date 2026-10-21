@@ -1,0 +1,16 @@
+Reference,Description,Value,Package,Manufacturer / MPN,Source URL
+J1,VM/GND motor supply,2-pin 5.08mm,TerminalBlock_1x02,Phoenix Contact 1729018,
+U1,Dual H-bridge motor driver,WQFN-16,DRV8833RTY,Texas Instruments DRV8833RTY,
+Q1,Reverse polarity protection,PowerPAK SO-8,P-MOSFET,AO4407A,https://www.aosmd.com/res/data_sheets/AO4407A.pdf
+D1,Motor rail transient clamp,SMBJ,SMBJ12A,Littelfuse SMBJ12A,
+R1,Bridge A current sense,0.1 Ohm,R_2512,Vishay WSL2512R1000FEA,
+R2,Bridge B current sense,0.1 Ohm,R_2512,Vishay WSL2512R1000FEA,
+C1,VM bulk decoupling,47uF 25V,C_1206,Panasonic EEU-FR1E470,
+C2,VM ceramic bypass,100nF,C_0805,Murata GRM21BR71E104KA01,
+C3,VCP charge pump,10nF,C_0805,Murata GRM21BR71H103KA01,
+C4,VINT bypass,2.2uF,C_0805,Murata GRM21BR60J225ME39,
+J2,Motor A/B outputs,4-pin 5.08mm,TerminalBlock_1x04,Phoenix Contact 1729028,
+J3,Logic: AIN1/AIN2/BIN1/BIN2/SLEEP/FAULT,1x06 2.54mm,PinHeader_1x06,Samtec TSW-106-07-G-S,
+TP1,VM current sense test point,TH,TestPoint,Keystone 5011,
+TP2,AISEN test point,TH,TestPoint,Keystone 5011,
+TP3,BISEN test point,TH,TestPoint,Keystone 5011,
